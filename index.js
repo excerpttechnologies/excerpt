@@ -16,7 +16,7 @@ const { type } = require('os');
 dotenv.config(); 
 const app = express();
 
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 8003;
 
 
 app.use(cors());
