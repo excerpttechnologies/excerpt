@@ -812,22 +812,23 @@ section.expertise-pages-banner article a:hover {
     max-width: 430px;
     margin: 0 auto;
     padding: 30px;
-    border-radius: 10px;
+    border-radius: 0px;
     background-color: #ffffff;
     color: #000;
     box-shadow: 0 8px 16px #6b6b6b;
     text-align: center;
     border: 2px solid #dddddd;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    margin-left: 10px;
-    height: 400px;
+    margin-left: 550px;
+    margin-top: 20px;
+    height: 870px;
     justify-content: center;
   }
   
-  .card1:hover {
+  /* .card1:hover {
     transform: translateY(-5px);
     box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
-  }
+  } */
   
   /* .card1 h2 {
     font-size: 28px;
