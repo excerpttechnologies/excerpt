@@ -2311,7 +2311,7 @@ body {
 
 @media (max-width: 450px){
     .heading-2{
-        margin-top: 1px;
+        margin-top: px;
     }
 }
 @media (max-width: 450px){
@@ -10819,5 +10819,9 @@ body {
     margin-left: 80px;
     margin-top: -60px;
   }
+
+  
+
+
 
   
