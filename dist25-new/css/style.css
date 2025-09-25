@@ -73,7 +73,7 @@ body {
 @media (max-width: 991px) {
     #navbar-1 .nav-content .notification {
         justify-content: flex-end;
-        padding: 1px 0;
+        padding: 5px 0;
         padding-right: 20px;
     }
     #navbar-1 .nav-content .notification span {
@@ -212,17 +212,9 @@ body {
     background-color: #0554f2;
 }
 
-@media (max-width: 575px) {
-    #navbar-1 .nav-content .options .search-option .get-start-button {
-        display: none;
-    }
-}
 
-@media (max-width: 550px){
-    .options{
-        display: none;
-    }
-}
+
+
 
 @media (max-width: 991px) {
     #navbar-1 .nav-content .options {
@@ -1606,7 +1598,6 @@ body {
 @media (max-width: 991px) {
     .service-details .squre-banner {
         padding: 15px;
-        margin-bottom: 3vh;
     }
 }
 
@@ -1878,11 +1869,7 @@ body {
     margin-left: -10%;
 }
 
-@media(max-width: 575.98px) {
-    .login-1 .container {
-        flex-direction: column;
-        box-shadow: none;
-    }
+
     
     .login-1 .col-left,
     .login-1 .col-right {
@@ -1895,7 +1882,7 @@ body {
     .login-1 .col-right {
         padding: 30px;
     }
-}
+
 
 .login-1 .login-text {
     position: relative;
@@ -2000,7 +1987,7 @@ body {
 .login-1 .login-form input[type=submit] {
     display: inline-block;
  
-    margin-top: 30px;
+    margin-top: 5px;
     color: #44c7f5;
     font-size: 16px;
     letter-spacing: 1px;
@@ -2311,222 +2298,3 @@ body {
 
 
 
-
-
-
-
-
-
-/* Mobile View CSS for Service Details */
-@media (max-width: 767px) {
-    .service-details .service {
-        width: 100%;
-        background: linear-gradient(135deg, #f3f7ff 0%, #e8f0ff 100%);
-        padding: 25px 20px;
-        border-radius: 15px;
-        margin-bottom: 25px;
-        box-shadow: 0 5px 20px rgba(5, 84, 242, 0.1);
-        border: 1px solid rgba(5, 84, 242, 0.1);
-    }
-
-    .service-details .service .service-list {
-        margin: 0;
-        padding: 0;
-        list-style: none;
-    }
-
-    .service-details .service .service-list li {
-        background: linear-gradient(135deg, #0554f2 0%, #0a3daf 100%);
-        padding-left: 0;
-        border-radius: 12px;
-        margin-bottom: 15px;
-        box-shadow: 0 4px 15px rgba(5, 84, 242, 0.3);
-        transition: all 0.3s ease;
-        border: 2px solid transparent;
-    }
-
-    .service-details .service .service-list li:active {
-        transform: scale(0.98);
-    }
-
-    .service-details .service .service-list li a .item {
-        padding: 18px 20px;
-        margin-bottom: 0;
-        width: 100%;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.4;
-        color: #1d1b19;
-        background: white;
-        border-radius: 10px;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        transition: all 0.3s ease;
-        min-height: 60px;
-    }
-
-    .service-details .service .service-list li a .item span {
-        font-size: 15px;
-        font-weight: 600;
-        letter-spacing: 0.3px;
-    }
-
-    .service-details .service .service-list li a .item .icon {
-        color: #0554f2;
-        width: 35px;
-        height: 35px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background: rgba(5, 84, 242, 0.1);
-        border-radius: 50%;
-        transition: all 0.3s ease;
-    }
-
-    .service-details .service .service-list li a .item .icon i {
-        transition: transform 0.3s ease;
-        font-size: 14px;
-    }
-
-    .service-details .service .service-list li:hover {
-        background: linear-gradient(135deg, #ffaa17 0%, #ff9500 100%);
-        transform: translateY(-2px);
-        box-shadow: 0 6px 20px rgba(255, 170, 23, 0.4);
-    }
-
-    .service-details .service .service-list li:hover a .item {
-        background: #0554f2;
-        color: white;
-        font-weight: 600;
-    }
-
-    .service-details .service .service-list li:hover a .item .icon {
-        color: white;
-        background: rgba(255, 255, 255, 0.2);
-        transform: translateX(5px);
-    }
-
-    .service-details .service .service-list li:hover a .item .icon i {
-        animation: mobileRightArrow 0.6s ease;
-    }
-
-    .service-details .service .service-list .active {
-        background: linear-gradient(135deg, #ffaa17 0%, #ff9500 100%);
-        border: 2px solid #ffaa17;
-        box-shadow: 0 6px 20px rgba(255, 170, 23, 0.4);
-    }
-
-    .service-details .service .service-list .active a .item {
-        background: #0554f2;
-        color: white;
-        font-weight: 600;
-    }
-
-    .service-details .service .service-list .active a .item .icon {
-        color: white;
-        background: rgba(255, 255, 255, 0.2);
-    }
-
-    .service-details .service .service-list .active a .item .icon i {
-        animation: mobileRightArrow 0.6s ease;
-    }
-
-    @keyframes mobileRightArrow {
-        0% {
-            transform: translateX(0);
-        }
-        50% {
-            transform: translateX(8px);
-        }
-        100% {
-            transform: translateX(0);
-        }
-    }
-
-    .service-details .service .underline {
-        width: 60px;
-        border: 3px solid #0554f2;
-        background: #0554f2;
-        margin-top: 10px;
-        margin-bottom: 25px;
-        border-radius: 3px;
-    }
-
-    .service-details .service h4.heading-3 {
-        font-size: 22px;
-        color: #0554f2;
-        font-weight: 700;
-        margin-bottom: 5px;
-        text-align: center;
-    }
-
-    /* Touch device optimizations */
-    @media (hover: none) {
-        .service-details .service .service-list li:hover {
-            transform: none;
-            background: linear-gradient(135deg, #0554f2 0%, #0a3daf 100%);
-        }
-        
-        .service-details .service .service-list li:active {
-            background: linear-gradient(135deg, #ffaa17 0%, #ff9500 100%);
-            transform: scale(0.98);
-        }
-        
-        .service-details .service .service-list li:active a .item {
-            background: #0554f2;
-            color: white;
-        }
-        
-        .service-details .service .service-list li:active a .item .icon {
-            color: white;
-            transform: translateX(3px);
-        }
-    }
-}
-
-/* Extra small devices (phones) */
-@media (max-width: 480px) {
-    .service-details .service {
-        padding: 20px 15px;
-        border-radius: 12px;
-    }
-
-    .service-details .service .service-list li a .item {
-        padding: 15px 18px;
-        min-height: 55px;
-    }
-
-    .service-details .service .service-list li a .item span {
-        font-size: 14px;
-    }
-
-    .service-details .service h4.heading-3 {
-        font-size: 20px;
-    }
-
-    .service-details .service .service-list li a .item .icon {
-        width: 32px;
-        height: 32px;
-    }
-}
-
-/* Very small devices */
-@media (max-width: 360px) {
-    .service-details .service {
-        padding: 18px 12px;
-    }
-
-    .service-details .service .service-list li a .item {
-        padding: 12px 15px;
-        min-height: 50px;
-    }
-
-    .service-details .service .service-list li a .item span {
-        font-size: 13px;
-    }
-
-    .service-details .service h4.heading-3 {
-        font-size: 18px;
-    }
-}
